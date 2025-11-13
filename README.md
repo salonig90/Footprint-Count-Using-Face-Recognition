@@ -29,7 +29,7 @@ This innovative system provides insights into customer traffic, gender demograph
 
 ## ⚙️ Methodology
 
-The project is divided into five main phases:
+The project is divided into 3 main phases:
 
 ### 1. **Face Detection**
 - The input image is captured via Pi Camera.  
@@ -52,20 +52,62 @@ The project is divided into five main phases:
   - **Feature Extraction:** Convolution + Pooling + ReLU layers.  
   - **Classification:** Fully connected layer with **sigmoid classifier** to label **Male** or **Female**.
 
-### 4. **Hardware Setup**
-- **Raspberry Pi 3 Model B+**
-- **Pi Camera Module**
-- **5V 2A Power Supply**
-- **PVC setup enclosure**
-
-### 5. **Software & Tools**
-- **Programming Language:** Python  
-- **Libraries:** OpenCV, NumPy, TensorFlow, Keras, paho-mqtt  
-- **Dashboard:** Android MQTT App  
-
 ---
 
 ### 📊 Methodology Flowchart
 <img width="682" height="442" alt="image" src="https://github.com/user-attachments/assets/7ff0fa5a-e74d-4e21-8f1f-4679d76f44a5" />
 
+### **Hardware Setup**
+- **Raspberry Pi 3 Model B+**
+- **Pi Camera Module**
+- **5V 2A Power Supply**
+- **PVC setup enclosure**
+---
+
+## 🧩 Skills Used
+
+| **Skill Area** | **Technologies & Tools** |
+|----------------|--------------------------|
+| **Programming** | Python |
+| **Machine Learning** | Convolutional Neural Network (CNN), Adaboost |
+| **Computer Vision** | OpenCV, Viola–Jones Algorithm |
+| **Embedded Systems** | Raspberry Pi 3 Model B+, Pi Camera |
+| **IoT Communication** | MQTT Protocol |
+| **Libraries & Frameworks** | NumPy, TensorFlow, Keras, paho-mqtt |
+| **Data Analytics** | Real-time visitor count and gender classification |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 📈 Results
+
+| **Video** | **Unknown Persons in Video** | **Count Detected** | **Accuracy** |
+|------------|------------------------------|--------------------|---------------|
+| Video 1 | 10 | 9 | 90% |
+| Video 2 | 6 | 6 | 100% |
+| Video 3 | 7 | 6 | 85.71% |
+
+### ✅ Observations:
+- The system **accurately recognized known employees** and **classified unknown visitors as customers**.  
+- **Gender classification** using CNN worked efficiently under normal lighting conditions.  
+- Real-time data was displayed successfully on the **MQTT dashboard**.  
+- **Overall accuracy:** Between **85%–100%** depending on environmental factors like lighting and angle.
+
+---
+
+## 📚 References
+
+1. W. Y. Lu and M. Yang, “Face Detection Based on Viola–Jones Algorithm Applying Composite Feature,” *ICRIS*, 2019.  
+2. Holkunde Monalisa, Veerbhadra Bale, “Face Recognition and Counting using Raspberry Pi with IoT,” *IJCSMR*, 2020.  
+3. Tahmina A. Sumi, Mohammad S. Hossain, “Human Gender Detection Using CNN,” *AII 2021, CCIS 1435*, pp. 188–203, 2021.  
+4. Sarala A. Dabhade & Mrunal S. Bewoor, “Real Time Face Detection and Recognition using Haar-based Cascade Classifier and PCA,” *IJCSMR*, 2012.  
+5. V. K. & Dr. S. Padmavath, “Facial Parts Detection using Viola–Jones Algorithm,” *ICACCS*, 2017.
+
+---
+
+## 🏆 Project Publication
+
+📄 **Paper Title:** *Footprint Counting Using Face Recognition*  
+📍 **Conference:** International Conference on Advanced Computing and Communication Systems (ICACCS)  
+📅 **Date:** March 17–18, 2023  
 
